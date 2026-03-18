@@ -35,5 +35,5 @@ The repository contains minimal data to validate the plugin:
  
 The ID centroid coordinated and the adjacency list can be used for rigidity percolation theory netowrk analysis or other topological analysis. 
 
-Main contributor: Arif Kahn (EMBL, CBA - Center for Bioimage Analysis)
+Main contributor: Arif Kahn - Centre for Bioimage Analysis (CBA) at the European Molecular Biology Laboratory (EMBL)
 

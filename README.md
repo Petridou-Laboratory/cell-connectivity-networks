@@ -2,7 +2,7 @@
 FIJI plugin to reconstruct connectivity networks based on label adjacency from a cell segmentation mask
 The plugin uses the MorpholibJ function “Region Adjacency Graph” (Legland, D., Arganda-Carreras, I. & Andrey, P. MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ. Bioinformatics 32, 3532–3534 (2016)) to identify label adjacency. To use the plugin, download the ij-graph.jar file and copy it in the Fiji jar folder. Launch it from Plugins>Graphs>Create and Edit Graph. Make sure to use with MorpholibJ plugin (IJPB plugin site should be added to the list of update sites. Installation instructions [here](https://imagej.net/plugins/morpholibj)) 
 
-### Dependencies:
+### Fiji requirements:
 1. MorpholibJ plugin
 
 ### Input files:

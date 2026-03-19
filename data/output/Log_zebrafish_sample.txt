@@ -1,0 +1,11 @@
+Use 'Load images and create graph' to create a new graph
+Use 'Load images and graph' to load an existing graph
+ NOTE: Please use the updated label mask to modify the graph
+Create graph editor ...
+Please use `Delete edge` button of the 'Create and Edit Graph' UI to delete edges 
+Create graph editor ...
+Please use `Delete edge` button of the 'Create and Edit Graph' UI to delete edges 
+Links saved as : /Volumes/petridou/Camilla/connectvity_plugin_zenodo/results/Adj_List_zebrafish_wt_dome_ROI_RGB.txt
+Cell centroids saved as : /Volumes/petridou/Camilla/connectvity_plugin_zenodo/results/Adj_List_zebrafish_wt_dome_ROI_RGB.txt
+Label mask saved as : /Volumes/petridou/Camilla/connectvity_plugin_zenodo/results/zebrafish_wt_dome_ROI_RGB-labelMask.tif
+Edges saved as : /Volumes/petridou/Camilla/connectvity_plugin_zenodo/results/zebrafish_wt_dome_ROI_RGB-edgeSet.zip

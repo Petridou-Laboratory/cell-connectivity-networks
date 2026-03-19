@@ -1,21 +1,29 @@
 # cell-connectivity-networks
-FIJI plugin to reconstruct connectivity networks based on label adjacency from a cell segmentation mask
-The plugin uses the MorpholibJ function “Region Adjacency Graph” (Legland, D., Arganda-Carreras, I. & Andrey, P. MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ. Bioinformatics 32, 3532–3534 (2016)) to identify label adjacency. To use the plugin, download the ij-graph.jar file and copy it in the Fiji jar folder. Launch it from Plugins>Graphs>Create and Edit Graph. Make sure to use with MorpholibJ plugin (IJPB plugin site should be added to the list of update sites. Installation instructions [here](https://imagej.net/plugins/morpholibj)) 
+Fiji plugin to reconstruct connectivity networks based on label adjacency from a cell segmentation label mask
+The plugin uses the MorpholibJ function “Region Adjacency Graph” (Legland, D., Arganda-Carreras, I. & Andrey, P. MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ. Bioinformatics 32, 3532–3534 (2016)) to identify label adjacency.
 
-### Fiji requirements:
-1. MorpholibJ plugin
+### Requirements:
+1. Fiji (https://imagej.net/software/fiji/downloads)
+1. Fiji MorpholibJ [plugin](https://imagej.net/plugins/morpholibj)
 
-### Input files:
-1. Label mask image (cell segmentation (e.g. with Cellpose))
-1. Intensity image (Confocal section from same Label mask image ROI)
+### Installation:
+- Download Fiji and MorpholibJ plugin.
+- Download the `ij-graph.jar` file from plugin folder of this repository and copy it in your local Fiji jar folder.
+
+### Usage:
+To use **cell-connectivity-networks** plugin, launch it from `Plugins>Graphs>Create and Edit Graph`.
+
+### Input:
+1. 2D (xy) Label mask image
+1. Intensity image (xy) (Confocal section from same Label mask image ROI)
 1. Optional: previously generated graph
 
-### Output files:
-1. Adjacency list (text file with adjacency label pairs)
-1. ID (text file with label centroids XY coordinates)
-1. edgeSet.zip (ROI set with edges)
-1. labelMask (label mask with additional labels)
-1. Log file (changes done to links ans labels)
+### Output:
+1. Text file with adjacency label pairs
+1. Text file with label centroids XY coordinates
+1. ROI set with edges
+1. Edited label mask
+1. Log file (showing changes done to links and labels)
 
 ### Functionalities:
 1. Create adjacency graph (Create graph: Load images and create graph)
@@ -27,13 +35,14 @@ The plugin uses the MorpholibJ function “Region Adjacency Graph” (Legland, D
 
 ### Minimal data
 The repository contains minimal data to validate the plugin:
-1. Original confocal microscopy tiff file, 3 channels (membrane marker, interstitial fluid, nuclear marker)
-2. Cropped region converted to RGB (not necessary to convert to RGB)
-3. Label mask segmentation of the same ROI done with [Cellpose 3](https://cellpose.readthedocs.io/en/v3.1.1.1/)
-4. results folder containing results for this image
+- input
+  1. Original confocal microscopy tiff file, 3 channels (membrane marker, interstitial fluid, nuclear marker)
+  1. Cropped region converted to RGB (not necessary to convert to RGB)
+  1. Segmentation label mask of the same ROI obtained using [Cellpose 3](https://cellpose.readthedocs.io/en/v3.1.1.1/)
+- output
+  1. "data/output" folder containing results for this image
 
- 
-The ID centroid coordinated and the adjacency list can be used for rigidity percolation theory netowrk analysis or other topological analysis. 
 
-Main contributor: Arif Kahn - Centre for Bioimage Analysis (CBA) at the European Molecular Biology Laboratory (EMBL)
+The ID centroid coordinated and the adjacency list can be used for rigidity percolation theory network analysis or other topological analysis. 
 
+Main contributor: Arif Khan - Bioimage Analysis Service Team (BAST) of Data Science Center at the European Molecular Biology Laboratory (EMBL) Heidelberg

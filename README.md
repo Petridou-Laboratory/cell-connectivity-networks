@@ -27,7 +27,7 @@ To use **cell-connectivity-networks** plugin, launch it from `Plugins>Graphs>Cre
 
 ### Functionalities:
 1. Create adjacency graph (Create graph: Load images and create graph)
-1. Option to add labels in Fiji (Add cell - via polygon)
+1. Option to add labels in Fiji (Add cell - Trace new cell outlining the boundaries with the Fiji polygon tool - making sure to not overlap an already existing label)
 1. Option to toggle label mask overlay (Show overlay)
 1. Possibility to edit the graphs: add missing edges or delete wrong edges from the GUI, note: do not use the ROI manager for this (Add edge, Delete edge)
 1. Possibility to upload a previously generated graph ROI file to re-edit (Load graph: Load images and graph).

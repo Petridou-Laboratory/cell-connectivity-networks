@@ -26,12 +26,12 @@ To use **cell-connectivity-networks** plugin, launch it from `Plugins>Graphs>Cre
 1. Log file (showing changes done to links and labels)
 
 ### Functionalities:
-1. Create adjacency graph (Create graph: Load images and create graph)
-1. Option to add labels in Fiji (Add cell - Trace new cell outlining the boundaries with the Fiji polygon tool - making sure to not overlap an already existing label)
-1. Option to toggle label mask overlay (Show overlay)
-1. Possibility to edit the graphs: add missing edges or delete wrong edges from the GUI, note: do not use the ROI manager for this (Add edge, Delete edge)
-1. Possibility to upload a previously generated graph ROI file to re-edit (Load graph: Load images and graph).
-1. Saving of all output results in a defined directory (Save results (Links+Centroids+LabelMask+Graph)
+1. Create adjacency graph (Create graph: `Load images and create graph`)
+1. Option to add labels in Fiji (`Add cell` - Trace new cell outlining the boundaries with the Fiji polygon tool - making sure to not overlap an already existing label)
+1. Option to toggle label mask overlay (`Show overlay` checkbox)
+1. Possibility to edit the graphs: add missing edges or delete wrong edges from the GUI, note: do not use the ROI manager for this (`Add edge`, `Delete edge`)
+1. Possibility to upload a previously generated graph ROI file to re-edit (Load graph: `Load images and graph`).
+1. Saving of all output results in a defined directory (`Save results (Links+Centroids+LabelMask+Graph`)
 
 ### Minimal data
 The repository contains minimal data to validate the plugin:
@@ -42,7 +42,21 @@ The repository contains minimal data to validate the plugin:
 - output
   1. "data/output" folder containing results for this image
 
+### Usage example
+1. Open the plugin `Graph Creator/Editor`
+2. Load the [Label mask image](https://github.com/Petridou-Laboratory/cell-connectivity-networks/blob/main/data/input/zebrafish_sample_cp_masks.png)  
+3. Load the [Intensity image](https://github.com/Petridou-Laboratory/cell-connectivity-networks/blob/main/data/input/zebrafish_sample_intensity_image.tif)
+4. Click on `Load images and create graph`
+5. 
+
+
+
+
+
+
 
 The ID centroid coordinated and the adjacency list can be used for rigidity percolation theory network analysis or other topological analysis. 
 
 Main contributor: Arif Khan - Bioimage Analysis Service Team (BAST) of Data Science Center at the European Molecular Biology Laboratory (EMBL) Heidelberg
+
+Code developed for the Petridou Group at the European Molecular Biology Laboratory (EMBL) Heidelberg for the following [publication](https://www.biorxiv.org/content/10.1101/2025.03.18.644006v1)

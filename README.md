@@ -47,7 +47,7 @@ The repository contains minimal data to validate the plugin:
 2. Load the [Label mask image](https://github.com/Petridou-Laboratory/cell-connectivity-networks/blob/main/data/input/zebrafish_sample_cp_masks.png)  
 3. Load the [Intensity image](https://github.com/Petridou-Laboratory/cell-connectivity-networks/blob/main/data/input/zebrafish_sample_intensity_image.tif)
 4. Click on `Load images and create graph`
-5. 
+5.
 
 
 
@@ -57,6 +57,6 @@ The repository contains minimal data to validate the plugin:
 
 The ID centroid coordinated and the adjacency list can be used for rigidity percolation theory network analysis or other topological analysis. 
 
-Main contributor: Arif Khan - Bioimage Analysis Service Team (BAST) of Data Science Center at the European Molecular Biology Laboratory (EMBL) Heidelberg
+Main contributor: Arif Khan - Bioimage Analysis Support Team (BAST) of Data Science Center at the European Molecular Biology Laboratory (EMBL) Heidelberg
 
-Code developed for the Petridou Group at the European Molecular Biology Laboratory (EMBL) Heidelberg for the following [publication](https://www.biorxiv.org/content/10.1101/2025.03.18.644006v1)
+Code developed for the Petridou Group at the European Molecular Biology Laboratory (EMBL) Heidelberg for the following [publication](https://www.nature.com/articles/s41567-026-03276-6)

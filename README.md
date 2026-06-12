@@ -47,7 +47,7 @@ The repository contains minimal data to validate the plugin:
 2. Load the [Label mask image](https://github.com/Petridou-Laboratory/cell-connectivity-networks/blob/main/data/input/zebrafish_sample_cp_masks.png)  
 3. Load the [Intensity image](https://github.com/Petridou-Laboratory/cell-connectivity-networks/blob/main/data/input/zebrafish_sample_intensity_image.tif)
 4. Click on `Load images and create graph`
-5.
+
 
 
 
